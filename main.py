@@ -49,11 +49,6 @@ class tree:
                 self.score =  ((self.descend_left.weight*self.descend_left.score)+(self.descend_right.weight*self.descend_right.score))/(self.descend_left.weight+self.descend_right.weight)
                 return self.score
 
-    def score(self):
-        return self.score
-
-    def weight(self):
-        return self.weight
 
 
 
